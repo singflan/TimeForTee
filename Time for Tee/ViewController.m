@@ -18,7 +18,11 @@
 @implementation ViewController
 
 -(IBAction)getApiInfo {
-    
+   [[T4TNetworkController api] GET:@"" parameters:[T4TNetworkController parametersWithApiKey:nil] success:^(NSURLSessionDataTask *task, id responseObject) {
+       NSLog(@"%@", responseObject);
+   } failure:^(NSURLSessionDataTask *task, NSError *error) {
+       NSLog(@"Failure");
+   }];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
