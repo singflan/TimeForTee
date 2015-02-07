@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "T4TNetworkController.h"
 
 @interface ViewController ()
 
@@ -14,6 +15,9 @@
 
 @implementation ViewController
 
+-(IBAction)getApiInfo {
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
