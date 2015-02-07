@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5544ADC716EAA6E665460250 /* libPods-Time for Tee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 066ED8B4DF49FB4E4CB3739D /* libPods-Time for Tee.a */; };
 		5DEE2FEB1A8695A700D0B9B9 /* T4TCourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEE2FEA1A8695A700D0B9B9 /* T4TCourseController.m */; };
+		5DEE2FEE1A869C6800D0B9B9 /* XMLSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEE2FED1A869C6800D0B9B9 /* XMLSerializer.m */; };
 		6B7670E61A86850300E7A9BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7670E51A86850300E7A9BB /* main.m */; };
 		6B7670E91A86850300E7A9BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7670E81A86850300E7A9BB /* AppDelegate.m */; };
 		6B7670EC1A86850300E7A9BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7670EB1A86850300E7A9BB /* ViewController.m */; };
@@ -35,6 +36,8 @@
 		59E78B49D82EA11275D8448A /* Pods-Time for Tee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time for Tee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Time for Tee/Pods-Time for Tee.debug.xcconfig"; sourceTree = "<group>"; };
 		5DEE2FE91A8695A700D0B9B9 /* T4TCourseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T4TCourseController.h; sourceTree = "<group>"; };
 		5DEE2FEA1A8695A700D0B9B9 /* T4TCourseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T4TCourseController.m; sourceTree = "<group>"; };
+		5DEE2FEC1A869C6800D0B9B9 /* XMLSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLSerializer.h; sourceTree = "<group>"; };
+		5DEE2FED1A869C6800D0B9B9 /* XMLSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLSerializer.m; sourceTree = "<group>"; };
 		6B7670E01A86850300E7A9BB /* Time for Tee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time for Tee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7670E41A86850300E7A9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B7670E51A86850300E7A9BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				6B7670F01A86850300E7A9BB /* Images.xcassets */,
 				6B7670F21A86850300E7A9BB /* LaunchScreen.xib */,
 				6B7670E31A86850300E7A9BB /* Supporting Files */,
+				5DEE2FEC1A869C6800D0B9B9 /* XMLSerializer.h */,
+				5DEE2FED1A869C6800D0B9B9 /* XMLSerializer.m */,
 			);
 			path = "Time for Tee";
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B7670EC1A86850300E7A9BB /* ViewController.m in Sources */,
+				5DEE2FEE1A869C6800D0B9B9 /* XMLSerializer.m in Sources */,
 				6B7670E91A86850300E7A9BB /* AppDelegate.m in Sources */,
 				6B7670E61A86850300E7A9BB /* main.m in Sources */,
 				6B76710B1A86860300E7A9BB /* T4TNetworkController.m in Sources */,

@@ -7,14 +7,16 @@
 //
 
 #import "T4TNetworkController.h"
+#import "XMLSerializer.h"
 
 static NSString * const apiKey = @"TRM7UQ7ZWN85RRFCQN395YV6";
 
 @implementation T4TNetworkController
 
 + (AFHTTPSessionManager *)api {
-    NSURL *baseURL = [NSURL URLWithString:@"http://theapi.active.com/golf/GetCoursesForLocation?locationid=237&api_key=TRM7UQ7ZWN85RRFCQN395YV6"];
+    NSURL *baseURL = [NSURL URLWithString:@"http://theapi.active.com/"];
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:baseURL];
+    manager.responseSerializer = [AFXMLParserResponseSerializer serializer];
     return manager;
  }
 

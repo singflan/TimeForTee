@@ -18,7 +18,7 @@
 @implementation ViewController
 
 -(IBAction)getApiInfo {
-   [[T4TNetworkController api] GET:@"" parameters:[T4TNetworkController parametersWithApiKey:nil] success:^(NSURLSessionDataTask *task, id responseObject) {
+   [[T4TNetworkController api] GET:@"golf/GetCoursesForLocation?locationid=237&api_key=TRM7UQ7ZWN85RRFCQN395YV6" parameters:[T4TNetworkController parametersWithApiKey:nil] success:^(NSURLSessionDataTask *task, id responseObject) {
        NSLog(@"%@", responseObject);
    } failure:^(NSURLSessionDataTask *task, NSError *error) {
        NSLog(@"Failure");
